@@ -33,14 +33,6 @@ One entry can have more then one meaning definition, for more see the Meaning fo
 *Only the word* is required, any other part is optional!
 Pronunciation can be next to the word or in a line beneath the word.
 
-__example__
-word /pronunciation/
-description
-... meanings ...
-< origin
-| comment
-> see also
-
 Meaning format
 --------------
 
