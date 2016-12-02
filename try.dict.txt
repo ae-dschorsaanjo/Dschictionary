@@ -1,0 +1,31 @@
+try (magyar - vegyes)
+ 
+
+proba /prOh-ba/
+---------------
+"a proba azt jelenti, hogy csak egy proba"
+(noun) proba
+(verb + D) probal
+(specifier) valaminek a probaja
+ (specifier : number) sok proba
+origin: magyar
+/* proba */
+see also:  valami mas
+
+
+
+----------------------------------------
+m   : marker
+n   : noun
+p   : particle
+pv  : pre-verb
+s   : specifier
+sp  : special particle
+stm : STM
+tp  : toki pona
+v   : verb
+----------------------------------------
+
+ 
+ 
+Created via Dschictionary.py
