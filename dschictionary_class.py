@@ -235,7 +235,7 @@ class Dschictionary:
 
 
 if __name__ == '__main__':
-    dsch = Dschictionary.create_dschictionary("znacra.dict")
+    dsch = Dschictionary.create_dschictionary("toki pona - toki Mosijo.txt")
     print(str(dsch) or dsch.error)
     print(len(dsch.entries()))
     print(dsch.get_entries_as_string())

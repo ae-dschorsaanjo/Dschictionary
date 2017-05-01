@@ -5,6 +5,7 @@ __copyright__ = "Copyright (C) 2016, B. Zolt'n Gorza"
 
 
 import re
+import pos
 
 
 """
@@ -14,21 +15,7 @@ Modify it as you want (but it's recommended to keep the original version)
 Original version is for a znacra -> english dictionary and a few other is
 for general usage.
 """
-PART_OF_SPEECH = {
-    'n':   'noun',
-    'pv':  'pre-verb',
-    'v':   'verb',
-    's':   'specifier',
-    'p':   'particle',
-    'm':   'marker',
-    'sp':  'special particle',
-    'stm': 'STM',  # 'sentence type marker',
-    'tp':  'toki pona'  # 'closest toki pona equivalent'
-    # others that are not for znacra (in other words, they're for toki pona)
-    # 'adj': 'adjective',
-    # 'adv': 'adverb',
-    # 'pre': 'preposition'
-}
+PART_OF_SPEECH = pos.DEFAULT
 
 
 class Meaning:
@@ -51,8 +38,8 @@ class Meaning:
             definition -- Meaning's definition
             level -- Meaning's level
         """
-        if pos in PART_OF_SPEECH:
-            pos = PART_OF_SPEECH[pos]
+        #if pos in PART_OF_SPEECH:
+        #    pos = PART_OF_SPEECH[pos]
         self._part_of_speech = pos
         self._case = case
         self._class = class_
@@ -61,8 +48,8 @@ class Meaning:
 
     def add_part_of_speech(self, nu_pos: str):
         """Add or modify the part of speech."""
-        if nu_pos in PART_OF_SPEECH:
-            nu_pos = PART_OF_SPEECH[nu_pos]
+        #if nu_pos in PART_OF_SPEECH:
+        #    nu_pos = PART_OF_SPEECH[nu_pos]
         self._part_of_speech = nu_pos
 
     def add_case(self, nu_case: str):

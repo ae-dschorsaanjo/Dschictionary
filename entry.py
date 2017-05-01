@@ -140,7 +140,7 @@ class Entry:
 
     def add_see(self, nu_see: str):
         """Add or modify see."""
-        self._see = nu_see.lstrip(self.SEE_CHAR)
+        self._see = nu_see.lstrip(self.SEE_CHAR).strip()
 
     def id(self):
         """Get id."""
