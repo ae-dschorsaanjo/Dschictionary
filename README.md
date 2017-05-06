@@ -52,8 +52,8 @@ Indentation level is optional and has not a great or any effect yet.
 __example__
 (NOTE: pos = part of speech)
 
-(pos+case:class) definition
+(pos:class+case) definition
 
 ---
 
-For more examples, see try.dict (input file) and try.dict.txt (generated output).
+For more examples, see example.txt (input file) and example.dict.* (generated output).

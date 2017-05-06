@@ -1,0 +1,73 @@
+.dsch {
+    margin: 0 auto;
+    line-height: 125%;
+}
+
+.dsch h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.dsch h3 {
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+.dsch .spell {
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.dsch .entry {
+    margin-bottom: 2em;
+}
+
+.dsch .word {
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.dsch .meanings {
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+}
+
+.dsch .mean {
+    height: 1.5em;
+}
+
+.dsch .mean .type {
+    font-style: italic;
+    padding-right: 1ch;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: max-content;
+}
+
+.dsch .mean .type .cls:not(:empty),
+.dsch .mean .type .cas:not(:empty) {
+    margin-left: 0.5ch;
+}
+
+.dsch .add span {
+    display: block;
+}
+
+.dsch .comm {
+    color: darkred;
+}
+
+.dsch a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.dsch a:hover {
+    color: red;
+}
+
+.dsch :target {
+    background-color: lightcoral;
+}

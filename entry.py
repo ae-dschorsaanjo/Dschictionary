@@ -1,9 +1,6 @@
 """Entry class and for Dschictionary."""
 
 
-__copyright__ = "Copyright (C) 2016, B. Zolt'n Gorza"
-
-
 import meaning
 
 
@@ -228,6 +225,7 @@ class Entry:
             indentchar = indentchar[0]
 
         tmpm = meaning.Meaning.is_meaning(text, indentchar)
+
         if tmpm:
             self += meaning.Meaning(*tmpm)
         else:

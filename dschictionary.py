@@ -1,8 +1,8 @@
 """This will be the main script to use this program.
 Now, use dschout.py for tests."""
 
-__version__ = "v0.0.1"
-__copyright__ = "Copyright (C) 2016, B. Zolt'n Gorza"
+__version__ = "v0.0.2"
+__copyright__ = "Copyright (C) 2016-2017, B. Zolt'n Gorza"
 __license__ = """GNU General Public License v3
 
 This program is free software: you can redistribute it and/or modify
@@ -19,3 +19,4 @@ GNU General Public License for more details.
 
 if __name__ == '__main__':
     print("hello")
+    # Till this file is empty, use "dschout.py" for tests.

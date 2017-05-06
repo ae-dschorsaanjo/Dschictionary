@@ -1,3 +1,18 @@
+v0.0.2 ()
+---------
+
+- The outputs now UTF-8
+- More Part of Speeches (pos.py) was added, also reordered and modified
+    - 'm': 'marker' became 'ma': 'marker'
+    - 'm' is now for 'modifiers'
+- In the output, the entries now alphabetically sorted.
+- The words in "see also" and the part of speeches become links in HTML output.
+- HTML output's design and its CSS are changed
+- A former bug is fixed, that caused duplicated output if you used multiple Dschictionarys through its static method (Dschictionary.create_dschictionary())
+- Changed the order of class and case within meaning prefix
+- Added new example dschictionary and deleted the old one
+- Added missing files
+
 v0.0.1 (1. 5. 2017)
 -------------------
 

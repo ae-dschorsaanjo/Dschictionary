@@ -1,9 +1,6 @@
 """Meaning class for Dschictionary."""
 
 
-__copyright__ = "Copyright (C) 2016, B. Zolt'n Gorza"
-
-
 import re
 import pos
 
@@ -27,7 +24,7 @@ class Meaning:
     _definition = ""
     _level = 0
 
-    def __init__(self, pos="", case="", class_="", definition="", level=0):
+    def __init__(self, pos="", class_="", case="", definition="", level=0):
         """
         Initializing a Meaning with 0 or more basic arguments.
 
@@ -41,8 +38,8 @@ class Meaning:
         #if pos in PART_OF_SPEECH:
         #    pos = PART_OF_SPEECH[pos]
         self._part_of_speech = pos
-        self._case = case
-        self._class = class_
+        self._case = case  # +
+        self._class = class_  # :
         self._definition = definition
         self._level = level
 
@@ -124,22 +121,22 @@ class Meaning:
             Meaning's constructor.
             Otherwise it returns None.
         """
-        match = re.fullmatch(indentchar + r"*(\(\w*\+?\w*:?\w*\))?.*",
+        match = re.fullmatch(indentchar + r"*(\(\w*:?\w*\+?\w*\)){1}.*",
                              text)
 
         # if 'text' is a valid meaning
         if match:
             all_ = re.search((r"(?P<lvl>[" + indentchar + r"]*)"
-                              r"\((?P<pos>[\w]*)\+?(?P<case>[\w]*)"
-                              r":?(?P<cls>[\w]*)\)(?P<def>[\w'\" ,\.]*)"),
+                              r"\((?P<pos>[\w]*):?(?P<cls>[\w]*)"
+                              r"\+?(?P<case>[\w]*)\)(?P<def>[\w'\" ,\.]*)"),
                              text)
             all_ = all_.groupdict() if all_ else None
         else:
             return
 
         return (all_['pos'].strip(),
-                all_['case'].strip(),
                 all_['cls'].strip(),
+                all_['case'].strip(),
                 all_['def'].strip(),
                 len(all_['lvl'])) if all_ else None
 

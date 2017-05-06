@@ -98,6 +98,8 @@ class Dschictionary:
         self._title = title
         self.entry_language = entrylang
         self.definition_language = defilang
+        self.error = ""
+        self._entries = []
 
     def title(self) -> str:
         """It returns the dschictionary's title."""
@@ -123,6 +125,11 @@ class Dschictionary:
         """It adds a single Entry instance."""
         self._entries.append(entry_)
         return self
+
+    def _sort_entries(self):
+        """It sorts the entries by word."""
+        #ut.sort(key=lambda x: x.count, reverse=True)
+        self._entries.sort(key=lambda e: e.word())
 
     def read_dschictionary(self, filename: str):
         """
@@ -200,6 +207,9 @@ class Dschictionary:
                 "The dschictionary doesn't contain any data except "
                 "the language definitions."
             )
+
+        self._sort_entries()  # Sorting entries alphabetically
+
         return self
 
     @staticmethod
@@ -235,7 +245,7 @@ class Dschictionary:
 
 
 if __name__ == '__main__':
-    dsch = Dschictionary.create_dschictionary("toki pona - toki Mosijo.txt")
+    dsch = Dschictionary.create_dschictionary("example.txt")
     print(str(dsch) or dsch.error)
     print(len(dsch.entries()))
     print(dsch.get_entries_as_string())
