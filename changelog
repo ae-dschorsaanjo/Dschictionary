@@ -1,3 +1,12 @@
+v0.0.3 (18. 5. 2017)
+----
+
+- Some outdated comments are updated/deleted
+- The modules got a fancy "dsch_" prefix (except for 'dschictionary_class' and 'dschictionary')
+- Other, minimal changes (nothing that changes functionality or any line of working code)
+- .gitignore added
+- Plans of a usable README added to my mind
+
 v0.0.2 (7. 5. 2017)
 ---------
 

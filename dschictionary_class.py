@@ -5,7 +5,7 @@ __copyright__ = "Copyright (C) 2016, B. Zolt'n Gorza"
 
 
 import enum
-import entry
+import dsch_entry as entry
 
 
 """The used language_separator within your dschictionary file (default: ->)."""
@@ -38,7 +38,7 @@ class ReadStates(enum.IntEnum):
     Languages = 1,
     Dictionary = 2,
     Entry = 3,
-    EOE = 4
+    EoE = 4
 
 
 class LanguageError(Exception):
@@ -196,7 +196,7 @@ class Dschictionary:
             else:  # if the line is empty (probably between two entries)
                 self += tmpe
                 tmpe = None
-                state = ReadStates.EOE
+                state = ReadStates.EoE
         if tmpe:
             self += tmpe
 

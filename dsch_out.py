@@ -6,8 +6,10 @@ For developers: please write your own output-classes here!
 
 
 import dschictionary_class as dsch
-from meaning import PART_OF_SPEECH
 import codecs
+
+
+PART_OF_SPEECH = dsch.entry.meaning.PART_OF_SPEECH
 
 
 class TextDschictionary():
@@ -174,16 +176,22 @@ class TextDschictionary():
 
 class HTMLDschictionary(TextDschictionary):
     """
-    TODO: dokumentary comm
-    FIXME: for some reason it duplicates every entry
+    Class for making a HTML output.
     """
 
     def __init__(self, filename):
+        """Only a filename all you need."""
         super().__init__(filename)
 
     def _write_POS(self):
         """
-        FIXME: it's only a prototype
+        This function writes the table of Part of Speeches to the end of output.
+
+        Return:
+            String, HTML formatted table of PoSs.
+
+        (old, ~16.dec.2) FIX ME: it's only a prototype
+        (update 17.may.18) Prototype my ass
         """
         keys = self._pos
         out = "<table class='postab' style='border: 1px solid black;'>\n"

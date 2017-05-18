@@ -1,7 +1,7 @@
 """Entry class and for Dschictionary."""
 
 
-import meaning
+import dsch_meaning as meaning
 
 
 """Default value for empty entries."""

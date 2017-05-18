@@ -2,15 +2,13 @@
 
 
 import re
-import pos
+import dsch_pos as pos
 
 
 """
 This dictionary contains the short form's meaning, e.g.: n -> noun.
 
-Modify it as you want (but it's recommended to keep the original version)
-Original version is for a znacra -> english dictionary and a few other is
-for general usage.
+Modify it as you want (but it's recommended to keep the original version).
 """
 PART_OF_SPEECH = pos.DEFAULT
 
