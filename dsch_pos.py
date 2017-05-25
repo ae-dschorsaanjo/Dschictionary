@@ -53,3 +53,8 @@ HUNGARIAN = {
 }
 
 DEFAULT = ENGLISH
+
+ALL_POS = {
+    'eng': ENGLISH,
+    'hun': HUNGARIAN
+}

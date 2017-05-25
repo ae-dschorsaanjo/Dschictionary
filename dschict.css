@@ -14,7 +14,7 @@
     font-weight: normal;
 }
 
-.dsch .spell {
+.dsch .pro {
     font-style: italic;
     margin-left: 1em;
 }
@@ -59,9 +59,14 @@
     color: darkred;
 }
 
+.dsch .see a:not(:last-of-type)::after {
+    content: ',';
+}
+
 .dsch a {
     color: inherit;
     text-decoration: inherit;
+    font-style: italic;
 }
 
 .dsch a:hover {

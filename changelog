@@ -1,5 +1,15 @@
+v0.0.4 (25. 5. 2017)
+--------------------
+
+- Almost complete rewrite of dsch_out.py
+    - New base class (BaseDschictionary) that is also able to generate output file in input format (to reorder the user's input and makes a backup).
+    - Now it is easier to add new output types.
+- One character is not unusable as indentation char ('.')
+- Minimal formatting changes in HTML and txt output
+- Minimal formatting errors are corrected in the (this) changelog
+
 v0.0.3 (18. 5. 2017)
-----
+--------------------
 
 - Some outdated comments are updated/deleted
 - The modules got a fancy "dsch_" prefix (except for 'dschictionary_class' and 'dschictionary')
@@ -8,7 +18,7 @@ v0.0.3 (18. 5. 2017)
 - Plans of a usable README added to my mind
 
 v0.0.2 (7. 5. 2017)
----------
+-------------------
 
 - The outputs now UTF-8
 - More Part of Speeches (pos.py) was added, also reordered and modified

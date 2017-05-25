@@ -1,5 +1,16 @@
 toki pona -> English
 
+pona /'po-na/
+One of the most used words
+(vt) to help, to fix
+(n) goodness
+(adj) good, fine, tasty, true, easy
+(adj:lili) a bit good, good
+(esp) bono
+< Esperanto word "bona"
+| It makes the language's name (toki pona) to mean either "good language", "language of good", or "easy language"
+> ike, lon
+
 seli /'se-li/
 This is the description of the word 'seli'
 (n) fire, heat source, warmth, heat
@@ -9,23 +20,12 @@ This is the description of the word 'seli'
 | this word sound pretty good
 > lete
 
-pona /'po-na/
-One of the most used words.
-(n) goodness
-(vt) to help, to fix
-(adj) good, fine, tasty, true, easy
-(adj:lili) a bit good, good-ish
-(esp) bono
-< Esperanto word "bona"
-| It makes the language's name (toki pona) to mean either "good language", "language of good", or "easy language".
-> ike, lon
-
 toki /'to-ki/
-Widely used word, probably the most used.
+Widely used word, probably the most used
 (n) language, speech, communication
 (vi) to talk
 (vt) to say, to communicate
 (adj) said
-(i) hello!
+(i) hello
 < tok pisin's "tok"
 > kalama, kute, pona

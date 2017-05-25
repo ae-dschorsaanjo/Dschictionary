@@ -1,51 +1,49 @@
 example (toki pona - English)
 
-pona /'po-na/
--------------
+pona  /'po-na/
+----
 "One of the most used words"
-(n) goodness
 (vt) to help, to fix
+(n) goodness
 (adj) good, fine, tasty, true, easy
-(adj : lili) a bit good, good
+(adj:lili) a bit good, good
 (esp) bono
-origin: Esperanto word "bona"
-/* It makes the language's name (toki pona) to mean either "good language", "language of good", or "easy language" */
-see also: ike, lon
+origin:  Esperanto word "bona"
+comment:  It makes the language's name (toki pona) to mean either "good language", "language of good", or "easy language"
+see also:  ikelon
 
 
-seli /'se-li/
--------------
+seli  /'se-li/
+----
 "This is the description of the word 'seli'"
 (n) fire, heat source, warmth, heat
 (vi) to burn
 (vt) to heat, to warm up, to cook
 (adj) hot, warm, cooked
-/* this word sound pretty good */
-see also: lete
+comment:  this word sound pretty good
+see also:  lete
 
 
-toki /'to-ki/
--------------
+toki  /'to-ki/
+----
 "Widely used word, probably the most used"
 (n) language, speech, communication
 (vi) to talk
 (vt) to say, to communicate
 (adj) said
 (i) hello
-origin: tok pisin's "tok"
-see also: kalama, kute, pona
-
+origin:  tok pisin's "tok"
+see also:  kalamakutepona
 
 
 ----------------------------------------
-adj : adjective
-esp : related Esperanto word(s)
-i   : interjection
-n   : noun
-vi  : intransitive verb
-vt  : transitive verb
+ adj: adjective
+ esp: related Esperanto word(s)
+   i: interjection
+   n: noun
+  vi: intransitive verb
+  vt: transitive verb
 ----------------------------------------
 
- 
- 
 Created via Dschictionary
+

@@ -17,7 +17,7 @@ These are the possible indentation characters.
 
 It is hardly recommended to contain the DEFAULT_INDENT_CHAR (see below).
 """
-INDENT_CHARS = ' \t_-.'
+INDENT_CHARS = ' \t_-'
 
 
 """
@@ -128,7 +128,6 @@ class Dschictionary:
 
     def _sort_entries(self):
         """It sorts the entries by word."""
-        #ut.sort(key=lambda x: x.count, reverse=True)
         self._entries.sort(key=lambda e: e.word())
 
     def read_dschictionary(self, filename: str):
