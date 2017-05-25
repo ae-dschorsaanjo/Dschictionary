@@ -1,5 +1,7 @@
 """
+This module contains every dschictionary-child for different outputs.
 
+For developers: please write your own output-classes here!
 """
 
 
