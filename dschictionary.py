@@ -1,7 +1,7 @@
 """This will be the main script to use this program.
 Now, use dschout.py for tests."""
 
-__version__ = "v0.0.3"
+__version__ = "v0.0.4"
 __copyright__ = "Copyright (C) 2016-2017, B. Zolt'n Gorza"
 __license__ = """GNU General Public License v3
 
