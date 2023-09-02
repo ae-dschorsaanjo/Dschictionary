@@ -1,4 +1,7 @@
 # Dschictionary
+
+**This project is abandoned. A new dictionary-software project will replace it in the future.**
+
 It's a simple dictionary program mainly for hobby-linguists like me, or for anyone else who find it interesting or useful.
 
 It's input's format is simple as the 1*1, the prefixes are mostly unambiguous and the input file is a simple (UTF-8 encoded) plain text file.
